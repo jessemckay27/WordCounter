@@ -16,7 +16,7 @@ _Created a Word Counter Demo that asks user to enter a sentence, as well as a sp
 
 ### Spec 2:
 * If the user word appears more than once in the sentence, return 1 for each word and add them together.
-* Input Sentence: "The storm on the mountain is heavier than the storm last year"; "snowing"
+* Input Sentence: "The storm on the mountain is heavier than the storm last year"
 * Input Word: "the"
 * Output: "3"
 
@@ -43,7 +43,7 @@ _Email rosecity27@comcast.net to contact the site creator._
 
 ## Technologies Used
 
-_This project used HTML, C#, Nancy, Razor
+_This project used HTML, CSS, C#, Nancy, Razor, Xunit, Powershell, Windows Operating System
 
 ### License
 

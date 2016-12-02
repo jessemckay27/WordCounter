@@ -15,6 +15,16 @@ namespace WordCounter.Objects
       _userWord = userWord;
     }
 
+    public GetUserSentence()
+    {
+      return _userSentence;
+    }
+
+    public GetUserWord()
+    {
+      return _wordCount;
+    }
+
     public int CountRepeats()
     {
       int _wordCount = 0;

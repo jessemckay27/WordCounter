@@ -2,9 +2,20 @@
 <html>
   <head>
     <title>Word Counter</title>
+    <link rel="stylesheet" href="../content/bootstrap/css/boostrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
-    
+      <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+          <form action="/count" method="post">
+            <label for="word"></label>
+            <input type="text" name="word" required>
+            <label for="sentence"></label>
+            <input type="text" name="sentence" required>
+            <button type="submit" name="button">Count</button>
+          </form>
+        </div>
+    </div>
   </body>
 </html>

@@ -9,7 +9,7 @@ namespace WordCounter.Objects
     [Fact]
     public void CountRepeats_EnterStringCountOneWord_1()
     {
-      RepeatCounter newCounter = new RepeatCounter("it is snowing on the mountain", "mountain");
+      RepeatCounter newCounter = new RepeatCounter("it is snowing", "snowing");
       Assert.Equal(1, newCounter.CountRepeats());
     }
     [Fact]

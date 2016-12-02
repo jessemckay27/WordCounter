@@ -10,12 +10,12 @@ namespace RepeatCountersView
     {
       Get["/"] = _ =>
       {
-        View["index.cshtml"];
+        return View["index.cshtml"];
       };
       Post["/count"] = _ =>
       {
-        RepeatCounter findWord = new RepeatCounter(Request.Form["sentence"],Request.Form["word"])
-        View["result.cshtml", findWord];
+        RepeatCounter findWord = new RepeatCounter(Request.Form["sentence"],Request.Form["word"]);
+        return View["result.cshtml", findWord];
       };
     }
   }

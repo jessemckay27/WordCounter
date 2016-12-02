@@ -10,7 +10,7 @@ _Created a Word Counter Demo that asks user to enter a sentence, as well as a sp
 
 #### Spec 1:
 * If the input word is found in the input sentence, return 1
-* Input Sentence: "It is snowing on the mountain"
+* Input Sentence: "it is snowing on the mountain"
 * Input Word: "snowing"
 * Output: "1"
 

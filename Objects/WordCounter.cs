@@ -18,10 +18,10 @@ namespace WordCounter.Objects
     public int CountRepeats()
     {
       int _wordCount = 0;
-      string[] userSentenceSplit = _userSentence.Split(' ');
+      string[] userSentenceSplit = _userSentence.ToUpper().Split(' ');
       for (int i = 0; i < userSentenceSplit.Length; i++)
       {
-        if (userSentenceSplit[i] == _userWord)
+        if (userSentenceSplit[i] == _userWord.ToUpper())
         {
           _wordCount += 1;
         }

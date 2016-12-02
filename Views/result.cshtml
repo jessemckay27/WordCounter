@@ -2,17 +2,18 @@
 <html>
   <head>
     <title>Word Counter</title>
-    <link type="text/css" rel="stylesheet" href="../content/bootstrap/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="../content/css/bootstrap/css/bootstrap.css">
     <link type="text/css" rel="stylesheet" href="../content/css/style.css">
   </head>
   <body>
     <div class="container">
       <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
-        <p>Your sentence: <span>@Model.GetUserSentence()</span></p>
-        <p>Your word to count: <span>@Model.GetUserWord()</span></p>
-        <p>Your word appeared <span>@Model.CountRepeats()<span> times.</p>
+        <h1>Results</h1>
+        <p id="input-top" class="input-fix"><span class="intro">Your Sentence:</span> <span class="fix-right">@Model.GetUserSentence()</span></p>
+        <p class="input-fix"><span class="intro">Your Word:</span> <span class="fix-right">@Model.GetUserWord()</span></p>
+        <p class="input-fix"><span class="intro">Your Count:</span> <span class="fix-right">@Model.CountRepeats()<span></p>
+        <a id="button-fix" class="btn" href="/">Home</a>
       </div>
-      <a href="/">Home</a>
     </div>
   </body>
 </html>

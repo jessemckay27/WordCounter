@@ -7,13 +7,12 @@
   </head>
   <body>
       <div class="container">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 form-group">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+          <h1>Word Counter</h1>
           <form class="form-group" action="/count" method="post">
-            <label for="sentence">Enter a sentence:</label>
-            <input class="form-control" type="text" name="sentence" required>
-            <label for="word">Enter a word to count:</label>
-            <input class="form-control" type="text" name="word" required>
-            <button type="submit" name="button">Count</button>
+            <input class="form-control" type="text" name="sentence" placeholder="Enter a sentence" required>
+            <input class="form-control" type="text" name="word" placeholder="Enter a word" required>
+            <button class="btn" type="submit">Count</button>
           </form>
         </div>
     </div>

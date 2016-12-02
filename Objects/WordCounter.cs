@@ -9,15 +9,15 @@ namespace WordCounter.Objects
     private string _userWord;
     private int _wordCount;
 
-    public Counter(string userSentence, string userWord)
+    public RepeatCounter(string userSentence, string userWord)
     {
       _userSentence = userSentence;
       _userWord = userWord;
-      _wordCount = 0;
     }
 
-    public string CountRepeats()
+    public int CountRepeats()
     {
+      int _wordCount = 0;
       string[] userSentenceSplit = _userSentence.Split(' ');
       for (int i = 0; i < userSentenceSplit.Length; i++)
       {

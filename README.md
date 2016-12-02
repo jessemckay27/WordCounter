@@ -43,7 +43,7 @@ _Email rosecity27@comcast.net to contact the site creator._
 
 ## Technologies Used
 
-_This project used HTML, CSS, C#, Nancy, Razor, Xunit, Powershell, Windows Operating System
+_This project used HTML, CSS, C#, Nancy, Razor, Xunit, Powershell, Windows Operating System_
 
 ### License
 

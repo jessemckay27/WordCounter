@@ -15,14 +15,14 @@ namespace WordCounter.Objects
       _userWord = userWord;
     }
 
-    public GetUserSentence()
+    public string GetUserSentence()
     {
       return _userSentence;
     }
 
-    public GetUserWord()
+    public string GetUserWord()
     {
-      return _wordCount;
+      return _userWord;
     }
 
     public int CountRepeats()

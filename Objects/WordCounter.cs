@@ -15,5 +15,18 @@ namespace WordCounter.Objects
       _userWord = userWord;
       _wordCount = 0;
     }
+
+    public string CountRepeats()
+    {
+      string[] userSentenceSplit = _userSentence.Split(' ');
+      for (int i = 0; i < userSentenceSplit.Length; i++)
+      {
+        if (userSentenceSplit[i] == _userWord)
+        {
+          _wordCount += 1;
+        }
+      }
+      return _wordCount;
+    }
   }
 }

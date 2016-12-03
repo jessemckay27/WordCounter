@@ -6,15 +6,16 @@
     <link type="text/css" rel="stylesheet" href="../content/css/style.css">
   </head>
   <body>
-      <div class="container">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
-          <h1>Word Counter</h1>
-          <form class="form-group" action="/count" method="post">
-            <input class="form-control" type="text" name="sentence" placeholder="Enter a sentence" required>
-            <input class="form-control" type="text" name="word" placeholder="Enter a word" required>
-            <button class="btn" type="submit">Count</button>
-          </form>
-        </div>
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 form-group">
+        <h1>Word Counter</h1>
+        <img id="logo" src="../content/img/epicodus.jpg" alt="epicodus logo">
+        <form action="/count" method="post">
+          <input class="form-control" type="text" name="sentence" placeholder="Enter a sentence" required>
+          <input class="form-control" type="text" name="word" placeholder="Enter a word" required>
+          <button class="btn" type="submit">Count</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
